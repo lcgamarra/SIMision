@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SIMision</string>
+    <string name="usuario">Usuario:</string>
+    <string name="contrasenia">Clave:</string>
+    <string name="claveHint">password</string>
+    <string name="usuarioHint">usuario1</string>
+    <string name="simName">Sistema Integral de Misiones</string>
+    <string name="ingresar">Ingresar</string>
 </resources>
