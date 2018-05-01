@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
+             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
              android:layout_height="match_parent" android:gravity="center_vertical">
 
     <TableRow
@@ -18,7 +18,7 @@
                 android:text="@string/usuario"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/userTextView" android:textSize="14sp"
-                android:paddingRight="5sp" android:gravity="end"/>
+                android:paddingRight="5sp" android:gravity="end" tools:ignore="RtlHardcoded,RtlSymmetry"/>
         <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
                 android:text="@string/contrasenia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/passTextView"
-                android:textSize="14sp" android:gravity="end" android:paddingRight="5sp"/>
+                android:textSize="14sp" android:gravity="end" android:paddingRight="5sp" tools:ignore="RtlHardcoded,RtlSymmetry"/>
         <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,8 +47,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" android:gravity="center_horizontal">
         <Button
+                android:onClick="ingresarClick"
                 android:text="@string/ingresar"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/loginButton"/>
+                android:layout_height="wrap_content" android:id="@+id/loginButton"
+        />
     </TableRow>
 </TableLayout>
