@@ -7,28 +7,29 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" android:gravity="center_horizontal">
         <Button
-                android:text="Consolidacion"
+                android:text="Mis Consolidadciones"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" android:id="@+id/consolidation_button"
-                android:onClick="consolidacionModuleClick"/>
+                android:layout_height="wrap_content" android:id="@+id/mis_consolidaciones_button"
+                android:onClick="misConsolidacionesClick"/>
     </TableRow>
 
     <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:gravity="center_horizontal">
         <Button
-                android:text="Asitencia"
+                android:text="Asignar Consolidador"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" android:id="@+id/asistencia_button"/>
+                android:layout_height="match_parent" android:id="@+id/asignar_consolidador_button"
+                android:onClick="asignarConsolidadorClick"/>
     </TableRow>
 
     <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" android:gravity="center_horizontal">
         <Button
-                android:text="Escuela"
+                android:text="Administrar"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" android:id="@+id/escuela_button"/>
+                android:layout_height="match_parent" android:id="@+id/administrar_consolidacion_button"/>
     </TableRow>
 
 </TableLayout>

@@ -20,6 +20,16 @@
         </activity>
         <activity android:name=".Modules">
         </activity>
+        <activity android:name=".ConsolidacionAdmin">
+        </activity>
+        <activity android:name=".MisConsolidaciones">
+        </activity>
+        <activity android:name=".AsignarConsolidador">
+        </activity>
+        <activity android:name=".Consolidacion">
+        </activity>
+        <activity android:name=".AsignarConsolidadorIndividual">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" android:baselineAligned="false">
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:gravity="left"
+            android:onClick="">
+
+        <TextView android:text="Consolidacion 00007\nNombre: Alice Verastegui\nDireccion: Mateo Pumacahua 192\nDistrito: La Molina\n"/>
+
+
+    </TableRow>
+
+    <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="left">
+
+        <TextView android:text="Consolidacion 00013\nNombre: Luis Gamarra\nDireccion: Mateo Pumacahua 192\nDistrito: La Molina\n"/>
+
+    </TableRow>
+
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:gravity="left">
+
+        <TextView android:text="Consolidacion 00026\nNombre: Elsa Muro\nDireccion: Urb. Cipreces E-18\nDistrito: Nuevo Chimbote\n"/>
+
+    </TableRow>
+
+</TableLayout>
